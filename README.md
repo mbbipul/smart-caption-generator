@@ -1,12 +1,12 @@
 ## smart-caption-generator
-![Challenge Promo](cover.png)
+![Challenge Promo](images/cover.png)
 Smart Caption generator is an Android Application that would allow users to generate smart captions in view of their image. When uploading pictures to social media, users give different captions, which has adequacy with their image. For example,  a person is uploading a  picture of his with smile face, and he is captioning the photo "My smile is so beautiful". The caption of this photo of his is matching the picture with a suitable quote. We have drawn this caption as a smart caption. In terms of the image, users want to give a caption of quotes that is consistent with the image. Our application, using the TensorFlow model, will detect various tags from the image and output the similarities caption from the quotes collection. 
   So recapping the use of Machine Learning, we will generate different tags from the picture using the TensorFlow model. First, we will analyze the image face to detect Facial Emotion and also extend different kinds of features( such as attitude) which helps to recommend suitable captions. Then those generated tags send to a recommendation system that will return the best-suitable caption from quotes database .
 
 ## How our app help users:
 How  our app help users? The process is first user select an image,after selection of an image our app first generate some tags, then tags go to recommendation system that will return the best-suitable caption. Here is complete architecture of our proposed application  .
 <p align="center">
-  <img width="100%" height="500" src="application_architecture.png">
+  <img width="100%" height="500" src="images/application_architecture.png">
 </p>
 
 
@@ -21,7 +21,7 @@ How  our app help users? The process is first user select an image,after selecti
 Here is the sample of a quote from Quotes collection. The recommendation system will work on the collection of quote tags and input image tags (Tag generator Model output ).
 
   <p align="center">
-  <img width="100%" height="500" src="sampleqoute.png">
+  <img width="100%" height="500" src="images/sampleqoute.png">
 </p>
 
                      Fig -2: A example of quote with tags
@@ -31,21 +31,21 @@ Here is the sample of a quote from Quotes collection. The recommendation system 
 
  
 <p align="center">
-  <img width="100%" height="500" src="attitude1.png">
+  <img width="100%" height="500" src="images/attitude1.png">
 </p>
 
                        Fig -3: Demo image_1 - Possibly generated tag “Attitude” 
 
 
  <p align="center">
-   <img width="100%" height="500" src="smile.png">
+   <img width="100%" height="500" src="images/smile.png">
  </p>
 
 
                           Fig -4: Demo image_2 -  Possibly generated tag “Smile” 
 
 <p align="center">
- <img width="100%" height="500" src="attitud2.png">
+ <img width="100%" height="500" src="images/attitud2.png">
 </p>
 
 
@@ -53,7 +53,7 @@ Here is the sample of a quote from Quotes collection. The recommendation system 
 
 
 <p align="center">
- <img width="100%" height="500" src="inocent.png">
+ <img width="100%" height="500" src="images/inocent.png">
 </p>
 
  
@@ -96,6 +96,6 @@ Linkedin : https://www.linkedin.com/in/bipul-mandol-10b157140
 
 Thursday, ‎October ‎24, ‎2019, at a workshop on DevOps in the IIT Institute Of Dhaka University, Bangladesh.
 <p align="center">
- <img width="100%" height="500" src="bipul.JPG">
+ <img width="100%" height="500" src="images/bipul.JPG">
 </p>
 
